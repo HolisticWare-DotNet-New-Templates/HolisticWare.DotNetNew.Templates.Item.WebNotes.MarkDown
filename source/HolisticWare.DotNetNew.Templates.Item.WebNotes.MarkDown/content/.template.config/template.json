@@ -1,0 +1,96 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "moljac Miljenko Mel Cvjetko HolisticWare/Xamarin/Microsoft",
+    "classifications":
+        [
+            // Tags used to search for the template.
+            "Custom Templates",
+            "HolisticWare",
+            "Markdown",
+            "topic"
+        ],
+    "groupIdentity": "HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown",
+    "name": "Custom item template for Cake script with debugging support",
+    // A unique ID for the project template.
+    "identity": "HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown",
+    // for commandline project creation
+    "shortName": "hw-markdown-topic",
+    "placeholderFilename": "-.-",
+    "sources":
+    [
+        {
+            "source": "./",
+            "target": "./",
+            "modifiers":
+            [
+                {
+                    "exclude":
+                    [
+                        // .gitginore include would be nice
+                        ".template.config/**",
+                        ".template.config/**/*",
+                        "**/[Bb]in/**",
+                        "**/[Oo]bj/**",
+                        "**/*.filelist",
+                        "**/*.user",
+                        "**/*.lock.json",
+                        "**/.vs/**",
+                        "**/packages/**",
+                        "**/*.DS_Store",
+                        "**/.DS_Store",
+                        "./tools/**/Addins/",
+                        "./tools/**/*.zip"
+                    ],
+                    "include":
+                    [
+                        // .gitginore include would be nice
+                        "./**"
+                    ]
+              }
+            ]
+        }
+    ],
+    "tags":
+    {
+        // Specify that this template is in C#.
+        "language": "MarkDown",
+        // project / solution
+        "type": "item"
+    },
+    "symbols": 
+    {
+        "Topic":
+        {
+            "type": "parameter",
+            "description": "The name of the code file and class.",
+            "datatype": "text",
+            "replaces": "topic",
+            "fileRename": "topic",
+            "defaultValue": "topic"
+        }
+    },
+      "postActions": 
+    [
+        {
+          "description": "Information",
+          "manualInstructions": 
+          [
+            { 
+                "text": "Cake script debugging works only for simple scripts" 
+            },
+            { 
+                "text": "Cake script debugging works only for simple scripts" 
+            },
+            { 
+                "text": "Scripts containing #load directives cannot be debugged" 
+            }
+          ],
+          "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+          "continueOnError": true,
+          "args": 
+          {
+          }
+        }
+      ]    
+  }
+  
