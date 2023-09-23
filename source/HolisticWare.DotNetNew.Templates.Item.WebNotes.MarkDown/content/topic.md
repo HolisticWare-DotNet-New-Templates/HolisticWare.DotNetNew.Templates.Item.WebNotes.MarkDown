@@ -2,22 +2,13 @@
 
 topic.md
 
-*   Details
+*   [Details topic/readme.md](topic/readme.md)
 
-    topic/readme.md
+*   [Tutorials - topic/tutorials.md](topic/tutorials.md)
 
-*   Tutorials
+*   [MultiMedia - topic/multimedia.md](topic/multimedia.md)
 
-    topic/tutorials.md
+*   [Samples - topic/samples.md](topic/samples.md)
 
-*   MultiMedia
+*   [Alternatives - topic/alternatives.md](topic/alternatives.md)
 
-    topic/multimedia.md
-
-*   Samples
-
-    topic/samples.md
-
-*   Alternatives
-
-    topic/alternatives.md
