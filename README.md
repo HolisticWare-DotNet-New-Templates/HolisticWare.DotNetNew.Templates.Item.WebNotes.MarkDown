@@ -1,4 +1,4 @@
-# HolisticWare.DotNetNew.CakeScriptDebugTemplate
+# HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
 
 HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
 
@@ -29,5 +29,6 @@ HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
 
 ## Details
 
-https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/dotnet-netfx/core/dotnet-new-templates
+### `dotnet new` templating
 
+https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/dotnet-netfx/core/dotnet-new-templates
