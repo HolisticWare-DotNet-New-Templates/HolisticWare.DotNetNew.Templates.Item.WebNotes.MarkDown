@@ -2,8 +2,32 @@
 
 HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
 
-## Installation 
+## Usage
 
+```
+dotnet new hw-markdown-topic --topic some-topic-to-write-about
+```
+
+verification:
+
+```
+tree
+```
+
+creates:
+
+```
+.
+├── some-topic-to-write-about
+│   ├── alternatives.md
+│   ├── multimedia.md
+│   ├── readme.md
+│   ├── samples.md
+│   └── tutorials.md
+└── some-topic-to-write-about.md
+```
+
+## Installation 
 
 ### Local / Development
 
@@ -11,6 +35,7 @@ HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
  dotnet new \
     uninstall \
         source/HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown/content
+        --force \
         -v:diagnostic
 
  dotnet new \
