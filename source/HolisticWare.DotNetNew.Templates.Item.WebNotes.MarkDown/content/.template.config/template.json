@@ -59,7 +59,7 @@
     },
     "symbols": 
     {
-        "Topic":
+        "topic":
         {
             "type": "parameter",
             "description": "The name of the code file and class.",
