@@ -2,6 +2,8 @@
 
 HolisticWare.DotNetNew.Templates.Item.WebNotes.MarkDown
 
+Template for note[s] in markdown.
+
 ## Usage
 
 ```
